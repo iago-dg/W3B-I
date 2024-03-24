@@ -73,3 +73,44 @@ function prevSlider() {
 
 btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
+
+const slid = document.querySelectorAll('.slider2');
+const butnPrev = document.getElementById('prev-button2');
+const butnNext = document.getElementById('next-button2');
+
+let currentSlider = 0;
+
+function hideSlider() {
+  slid.forEach(item => item.classList.remove('on2'))
+}
+
+function show_Slide() {
+  slid[currentSlider].classList.add('on2')
+}
+
+function next_Slider() {
+  hideSlider()
+  if(currentSlider === slid.length -1) {
+    currentSlider = 0
+  } else {
+    currentSlider++
+  }
+  show_Slide()
+}
+
+function prev_Slider() {
+  hideSlider()
+  if(currentSlider === 0) {
+    currentSlider = slid.length -1
+  } else {
+    currentSlider--
+  }
+  show_Slide()
+}
+
+butnNext.addEventListener('click', next_Slider)
+butnPrev.addEventListener('click', prev_Slider)
+
+
+
+
