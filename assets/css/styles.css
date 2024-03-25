@@ -286,22 +286,36 @@ ul {
     height: 450px;
     width: 300px;
     border-radius: 20px;
-    box-shadow: 0px 0px 8px var(--primary-color);
+    
 }
+
+.personalizar:hover{
+    box-shadow: 0px 0px 9px var(--primary-color);
+}
+
 
 .combo01{
     background-color: var(--secondary-color);
     height: 450px;
     width: 300px;
     border-radius: 20px;
+    
+}
+
+.combo01:hover{
     box-shadow: 0px 0px 8px var(--primary-color);
 }
+
 
 .combo02{
     background-color: var(--secondary-color);
     height: 450px;
     width: 300px;
     border-radius: 20px;
+    
+}
+
+.combo02:hover{
     box-shadow: 0px 0px 8px var(--primary-color);
 }
 
