@@ -75,41 +75,41 @@ btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
 
 const slid = document.querySelectorAll('.slider2');
-const butnPrev = document.getElementById('prev-button2');
-const butnNext = document.getElementById('next-button2');
+const butnPrev2 = document.getElementById('prev-button2');
+const butnNext2 = document.getElementById('next-button2');
 
-let currentSlider = 0;
+let currentSlider2 = 0;
 
-function hideSlider() {
+function hideSlider2() {
   slid.forEach(item => item.classList.remove('on2'))
 }
 
-function show_Slide() {
-  slid[currentSlider].classList.add('on2')
+function show_Slide2() {
+  slid[currentSlider2].classList.add('on2')
 }
 
-function next_Slider() {
-  hideSlider()
-  if(currentSlider === slid.length -1) {
-    currentSlider = 0
+function next_Slider2() {
+  hideSlider2()
+  if(currentSlider2 === slid.length -1) {
+    currentSlider2 = 0
   } else {
-    currentSlider++
+    currentSlider2++
   }
-  show_Slide()
+  show_Slide2()
 }
 
-function prev_Slider() {
-  hideSlider()
-  if(currentSlider === 0) {
-    currentSlider = slid.length -1
+function prev_Slider2() {
+  hideSlider2()
+  if(currentSlider2 === 0) {
+    currentSlider2 = slid.length -1
   } else {
-    currentSlider--
+    currentSlider2--
   }
-  show_Slide()
+  show_Slide2()
 }
 
-butnNext.addEventListener('click', next_Slider)
-butnPrev.addEventListener('click', prev_Slider)
+butnNext2.addEventListener('click', next_Slider2)
+butnPrev2.addEventListener('click', prev_Slider2)
 
 
 
