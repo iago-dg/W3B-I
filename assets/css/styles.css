@@ -543,16 +543,7 @@ ul {
     .about {
         text-align: center;
     }
-    .persons {
-        grid-template-columns: repeat(1, 1fr);
-    }
-<<<<<<< Updated upstream
-}
-=======
-
->>>>>>> Stashed changes
-
-
+}    
 @media screen and (max-width: 420px) {
     .hero {
     max-width: 330px;
