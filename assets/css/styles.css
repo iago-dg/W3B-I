@@ -466,14 +466,23 @@ ul {
    body.dark .live {
     color: #fff;
    }
+   @media screen and (max-width: 990px) {
+    .ofertas{
+        font-size: 0.8rem;
+    }
+    .combo01{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
 
    @media screen and (max-width: 768px) {
     .ofertas{
         font-size: 0.8rem;
     }
     .combo01{
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .hamburger {
         display: block;
