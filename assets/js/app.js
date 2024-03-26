@@ -111,6 +111,34 @@ function prev_Slider2() {
 butnNext2.addEventListener('click', next_Slider2)
 butnPrev2.addEventListener('click', prev_Slider2)
 
+const hamburge = document.getElementById('hamburger');
+const nav_link = document.querySelector('ul');
+
+hamburge.addEventListener('click',hamburge.classList.toggle('active'), nav_link.classList.toggle('active'));
+
+nav_link.addEventListener('click', function(){
+  if (nav_link.classList.contains('active')){
+    hamburge.classList.remove('active');
+    nav_link.classList.remove('active');
+  }
+});
+
+const hamburg = document.getElementById('hamburger');
+const navList = document.querySelector('ul');
+
+    hamburger.addEventListener('click', function() {
+        navList.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+
+
+
+
+
+
+
+
+
 
 
 
