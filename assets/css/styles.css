@@ -19,27 +19,33 @@ html {
     padding: 0;
     box-sizing: border-box;
     transition: var(--transition);
-   }
+}
+
 body {
     font-family: "Roboto", sans-serf;
-   }
+}
+
 ul li {
     list-style-type: none;
-   }
+}
+
 a {
     text-decoration: none;
     color: var(--primary-color);
-   }
+}
+
 a:hover {
     color: var(--secondary-color);
-   }
+}
 
 .da {
     color: var(--primary-color);
-   }
+}
+
 .live {
     color: var(--secondary-color);
-   }
+}
+
 nav {
     background: #fff;
     position: sticky;
@@ -396,6 +402,8 @@ ul {
     right: 0.5%;
     bottom: 3%;
     cursor: pointer;
+    border: 0.2rem var(--primary-color) solid;
+    border-radius: 50%;
    }
    .up-arrow {
     width: 3rem;
