@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* CSS Variables */
 :root {
  --normal-font: 400;
@@ -22,7 +23,7 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serf;
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 ul li {
@@ -36,10 +37,12 @@ a {
 
 a:hover {
     color: var(--secondary-color);
+    font-weight: 900;
 }
 
 .da {
     color: var(--primary-color);
+    font-weight: 900;
 }
 
 .live {
@@ -72,7 +75,7 @@ ul {
     margin-left : 2rem;
    }
 .nav-link {
-    font-weight : var(--bold-font);
+    font-weight : var(--bolder-font);
    }
 .hamburger {
     display: none;
@@ -105,6 +108,7 @@ ul {
    }
 .hear {
     color: var(--primary-color);
+    font-weight: 900;
    }
 .connecting {
     color: var(--secondary-color);
@@ -181,6 +185,8 @@ ul {
    .people {
     margin-top: 2rem;
     padding: 1rem 0;
+    font-weight: 900;
+    font-size: 22px;
    }
    * {
     margin: 0;
@@ -279,6 +285,11 @@ ul {
     font-size: 1.3rem;
    }
 
+.suites{
+    font-weight: 900;
+    font-size: 100px;
+}
+
 .ofertas{
     display: flex;
     justify-content: space-evenly;
@@ -293,7 +304,7 @@ ul {
     height: 450px;
     width: 300px;
     border-radius: 20px;
-    
+    font-weight: 600;
 }
 
 .personalizar:hover{
@@ -476,6 +487,7 @@ ul {
    body.dark .role {
     color: var(--secondary-color);
    }
+
    body.dark footer {
     color: #fff;
     border-top: 1px solid #111010;
