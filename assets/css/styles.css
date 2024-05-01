@@ -222,6 +222,14 @@ ul {
   .on, .on2 {
     opacity: 1;
   }
+
+  #prev-button{
+    transform: rotate(-180deg);
+  }
+
+  #prev-button2{
+    transform: rotate(-180deg);
+  }
   
   #prev-button, #next-button, #prev-button2, #next-button2 {
     width: 30px;
@@ -471,6 +479,23 @@ ul {
    body.dark li {
     color: #fff;
    }
+
+   body.dark #next-button{
+    color: white;
+   }
+
+   body.dark #next-button2{
+    color: white;
+   }
+
+   body.dark #prev-button{
+    color: white;
+   }
+   
+   body.dark #prev-button2{
+    color: white;
+   }
+
    body.dark .assinar {
     color: #fff;
    }
