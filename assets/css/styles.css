@@ -208,7 +208,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 650px;
+    height: 150%;
   }
   
   .slider, .slider2 {
@@ -222,30 +223,14 @@ ul {
   .on, .on2 {
     opacity: 1;
   }
-
-  #prev-button{
-    transform: rotate(-180deg);
-  }
-
-  #prev-button2{
-    transform: rotate(-180deg);
-  }
   
   #prev-button, #next-button, #prev-button2, #next-button2 {
-    width: 30px;
-    height: 30px;
     border: none;
     background-color: transparent;
     cursor: pointer;
-  }
-  
-  #prev-button img, #next-button img, #prev-button2 img, #next-button2 img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #prev-button, #prev-button2 {
-    transform: rotate(180deg);
+    font-weight: 100px;
+    transform: scale(2);
+    margin: 40px;
   }
   
    .role {
@@ -260,6 +245,13 @@ ul {
    .subscribe h3 {
     text-align : center;
    }
+
+   .subscribe input {
+    width: 100px;
+    height: 40px;
+    font-size: large;
+   }
+
    form {
     text-align : center;
     margin: 0.4rem 2rem;
@@ -296,6 +288,7 @@ ul {
 .suites{
     font-weight: 900;
     font-size: 100px;
+    padding-bottom: 50px ;
 }
 
 .ofertas{
@@ -305,6 +298,7 @@ ul {
     width: 100%;
     height: 500px;
     font-size: 0.9rem;
+    color: #f1f1f1;
 }
 
 .personalizar{
@@ -321,6 +315,7 @@ ul {
 
 .ofertas input{
     background-color: rgb(109, 103, 138);
+    color: #f1f1f1;
 }
 
 
